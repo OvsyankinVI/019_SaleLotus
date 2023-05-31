@@ -1,8 +1,8 @@
 let app = new Vue({
     el: '.salelotus',
     data: {
-        showMain: false,
-        showBlog: true,
+        showMain: true,
+        showBlog: false,
         showBlogDetali: false,
     },
     methods: {
