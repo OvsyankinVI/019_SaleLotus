@@ -38,6 +38,32 @@ const swiper = new Swiper('.swiper', {
   }
 });
 
+const swipercl = new Swiper('.swiper-cl', {
+  slidesPerView: 1.4,
+   rewind: true,
+   pagination: {
+    el: '.swiper-pagination',
+  },
+/*   spaceBetween: 24, */
+/*  breakpoints: {
+         1000: {
+          slidesPerView: 3,
+      }, 
+      850: {
+        slidesPerView: 2.5,
+    }, 
+          650: {
+        slidesPerView: 2,
+    }, 
+      450: {
+        slidesPerView: 1.5,
+    }, 
+    390: {
+      slidesPerView: 1.1,
+  }, 
+  } */
+});
+
 var swiper1 = new Swiper(".mySwiper", {
   direction: "vertical",
   centeredSlides: true,
