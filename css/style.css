@@ -2650,6 +2650,9 @@ footer {
   color: var(--color-neutral-1);
   margin-bottom: 32px;
   margin-left: 8px;
+  padding-top: 85px;
+  margin-top: -85px;
+
 }
 .tc_text-flex-text-item-p {
   font-weight: 400;
@@ -2919,7 +2922,34 @@ footer {
   line-height: 28px;
   color: var(--color-neutral-2);
 }
+.p_2 {
+  display: none;
+}
+.p_3 {
+  display: none; 
+}
+.p_4 {
+  display: none;
+}
+.p_5 {
+  display: none;
+}
+.p7 {
+  display: none;
+}
+.p8 {
+  display: none;
+}
+.p9 {
+  display: none;
+}
 
+.dn {
+  display: none;
+}
+.df {
+  display: flex;
+}
 
 /* _________ */
 /* help-center */
@@ -3321,6 +3351,7 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
   text-align: center;
   color: var(--color-neutral-1);
   height: 44px;
+  cursor: pointer;
 }
 .collaboration-flex-l-nav-a:hover {
   background: #BFDFCD;

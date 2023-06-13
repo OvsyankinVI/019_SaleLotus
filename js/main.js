@@ -42,8 +42,10 @@ const swipercl = new Swiper('.swiper-cl', {
   slidesPerView: 1,
    rewind: true,
    direction: "horizontal",
+
    pagination: {
     el: '.swiper-pagination',
+    clickable: true,
   },
 });
 
@@ -60,6 +62,17 @@ var swiper1 = new Swiper(".mySwiper", {
   speed: 700,
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
+var swiper1 = new Swiper(".swiper-swip", {
+  slidesPerView: 1,
+   rewind: true,
+   direction: "horizontal",
+
+   pagination: {
+    el: '.swiper-pagination',
     clickable: true,
   },
 });
